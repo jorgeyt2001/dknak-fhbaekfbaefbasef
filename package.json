@@ -1,7 +1,10 @@
 {
-  "name": "bot",
+  "name": "myapp",
+  "description": "a really cool app",
   "version": "1.0.0",
-  "description": "Bot para el servidor de Discord de Rainbow six rankeds",
+  "engines": {
+    "node": "12.13.0"
+  },
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
