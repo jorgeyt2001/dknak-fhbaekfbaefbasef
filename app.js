@@ -62,7 +62,7 @@ client.on('guildMemberAdd', member => {
 });
 
 // Log our bot in using the token from https://discordapp.com/developers/applications/me
-client.login('NTQ4MTU5NjM4ODIyOTc3NTY2.XcQ6tw.UwEldLSr-iXLFFKrTMhVytfieAo');
+client.login('NjQ4MTkwMjI1NzU5MjA3NDU0.XenSuw.VQAujd8Nk055ANVC9z3cymLxvtg');
 
 client.on("guildMemberAdd", function(member) {
   let role = member.guild.roles.find("name", "BABYS");
@@ -105,7 +105,14 @@ if (message.content.startsWith(prefix + "fumarse un porro"))message.channel.send
     }, 8000);
 })
 
+if (message.content.startsWith(prefix + "purge")) {
+
+  let args = args[1]
+    
+};
+
 });
+
 
 
 
